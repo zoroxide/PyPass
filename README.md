@@ -2,28 +2,28 @@
 
 A secure, production-ready desktop password manager with SQLite3 storage, multi-page interface, and dark/light themes.
 
-## ✨ Features
+## Features
 
-### 🗄️ SQLite3 Database Storage
+### SQLite3 Database Storage
 - High-performance database backend
 - Optimized queries with indexes
 - Atomic transactions for data integrity
 - Built-in statistics tracking
 
-### 🎨 Multi-Page Interface
+### Multi-Page Interface
 - **Authentication Page**: Clean login/create vault interface
 - **Passwords Page**: Full-featured password management with search
 - **Settings Page**: Theme switching, vault management, security options
 - Navigation sidebar for easy page switching
 
-### 🌓 Dark/Light Theme Support
+### Dark/Light Theme Support
 - Toggle between dark and light themes
 - Modern UI design with ttkbootstrap
 - Smooth theme transitions
 
-### 📁 Clean Architecture
+### Clean Architecture
 ```
-pass-manager/
+PyPass/
 ├── main.py                          # Application entry point
 ├── services/                        # Business logic layer
 │   ├── encryption.py               # Encryption service
@@ -41,23 +41,23 @@ pass-manager/
         └── generator_dialog.py    # Password generator
 ```
 
-## 🔐 Security
+## Security
 
 - **SQLite3 Encryption**: Encrypted storage in database
 - **PBKDF2 + Fernet**: Military-grade AES-128 encryption
 - **100,000 Iterations**: Brute-force resistant key derivation
 - **Unique Salt**: Per-vault salt prevents rainbow attacks
 
-## 🚀 Usage
+## Usage
 
 ```bash
 python main.py
 ```
 
 ### Navigation
-- **🔑 Passwords**: Manage all your passwords
-- **⚙️ Settings**: Configure theme, import/export, change master password
-- **🔒 Lock**: Secure your vault when away
+- **Passwords**: Manage all your passwords
+- **Settings**: Configure theme, import/export, change master password
+- **Lock**: Secure your vault when away
 
 ### Importing Passwords
 1. Go to Settings → Vault Management
@@ -71,7 +71,7 @@ python main.py
 ### Theme Switching
 Go to Settings → Appearance → Choose Dark 🌙 or Light ☀️
 
-## 📊 Database Schema
+## Database Schema
 
 ```sql
 -- Configuration table
@@ -93,13 +93,9 @@ CREATE TABLE passwords (
 );
 ```
 
-## 🎯 Architecture Principles
+## Architecture Principles
 
 - **Separation of Concerns**: Services ↔ UI completely decoupled
 - **OOP Design**: Single responsibility, dependency injection
 - **Scalability**: Modular page-based architecture
 - **Maintainability**: Clear structure, type hints, docstrings
-
-## 📝 License
-
-MIT License

@@ -14,7 +14,7 @@ Features:
 - Export/backup capabilities
 
 Author: Loay Mohamed
-Date: 2026
+Date: 2024 - 06
 """
 
 from src.services.encryption import EncryptionService
