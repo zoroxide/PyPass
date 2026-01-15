@@ -2,6 +2,13 @@
 
 A secure, production-ready desktop password manager with SQLite3 storage, multi-page interface, and dark/light themes.
 
+## Screenshots
+<img width="1919" height="1054" alt="image" src="https://github.com/user-attachments/assets/a22af54a-65ea-4369-8cfa-2b231bae964a" />
+<img width="1919" height="1057" alt="image" src="https://github.com/user-attachments/assets/e8d66775-83fc-40e8-ac4c-90057e6f9fec" />
+<img width="1919" height="1057" alt="image" src="https://github.com/user-attachments/assets/c82f94df-cbe2-4f04-a05f-6df154636b6d" />
+<img width="1919" height="1056" alt="image" src="https://github.com/user-attachments/assets/4382c9e5-1d42-4e01-a355-6544e15eed69" />
+<img width="1919" height="1058" alt="image" src="https://github.com/user-attachments/assets/abb86394-4fb9-466d-b98d-ce409b9f0ba5" />
+
 ## Features
 
 ### SQLite3 Database Storage
